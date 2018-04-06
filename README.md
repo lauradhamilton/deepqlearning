@@ -22,7 +22,7 @@ pip install keras
 pip install tensorflow
 ```
 
-# Now for the code. Let's start by importing the libraries we will need:
+# Now for the code. Create a new file for our code deepqlearning.py. Let's start by importing the libraries we will need:
 ```
 import gym
 import random
@@ -32,3 +32,6 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.optimizers import Adam
 ```
+
+# Run your file to make sure there are no errors
+```python deepqlearning.py```
